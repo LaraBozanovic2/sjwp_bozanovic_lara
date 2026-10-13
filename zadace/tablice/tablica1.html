@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tablice</title>
+  </head>
+  <body>
+    <h1>tablice</h1>
+
+    <table border="1" width="550">
+      <tr>
+        <th>Tvrtka</th>
+        <th>Kontakt</th>
+        <th>Zemlja</th>
+      </tr>
+      <tr>
+        <td>Primax doo</td>
+        <td>Vedran Dankić</td>
+        <td>Hrvatska</td>
+      </tr>
+
+      <tr>
+        <td>Vet.dom Cetinjanin</td>
+        <td>Davorin Cetinjanin</td>
+        <td>Austrija</td>
+      </tr>
+    </table>
+
+    <h2>Spajanje stupaca</h2>
+    <table border="1">
+      <tr>
+        <th colspan="2">Ime i prezime</th>   <!--colspan spajanje Ime i Prezime  -->
+        <th>Godine</th>
+      </tr>
+      <tr>
+        <th>Filip</th>
+        <th>Dankić</th>
+        <th>17</th>
+      </tr>
+      <tr>
+        <th>Petar</th>
+        <th>Cetinjanin</th>
+        <th>17</th>
+      </tr>
+    </table>
+
+    <h2>Spajanje redova</h2>
+    <table border="1"> <!--table>tr*3 za brži unos  -->
+      <tr>
+        <th>Ime</th>
+        <td>Ivan</td>
+      </tr>
+      <tr>
+        <td rowspan="2">Mobitel</th>
+        <td>555-1234</td>
+      </tr>
+      <tr>
+        <td>555-4321</td>
+      </tr>
+    </table>
+  </body>
+</html>
